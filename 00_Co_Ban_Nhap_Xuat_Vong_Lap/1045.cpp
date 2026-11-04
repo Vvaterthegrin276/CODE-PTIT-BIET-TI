@@ -1,0 +1,12 @@
+#include <stdio.h>
+int  main(){
+	int n;
+	scanf("%d",&n);
+	int cuoi=n%10;
+	int dau=n;
+	while(dau>=10){
+		dau=dau/10;
+	}
+	printf("%d %d",dau,cuoi);
+	return 0;
+}
